@@ -1,0 +1,54 @@
+{
+  "name": "tailwind-dark-theme",
+  "displayName": "Tailwind Dark Theme",
+  "description": "Tailwind Dark Theme for Visual Studio Code",
+  "version": "1.0.1",
+  "publisher": "faisalfajri",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faisalfjri/tailwind-dark-theme"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "tailwind",
+    "tailwind theme",
+    "tailwind dark theme"
+],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tailwind Dark Slate",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-slate-color-theme.json"
+      },
+      {
+        "label": "Tailwind Dark Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-gray-color-theme.json"
+      },
+      {
+        "label": "Tailwind Dark Zinc",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-zinc-color-theme.json"
+      },
+      {
+        "label": "Tailwind Dark Neutral",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-neutral-color-theme.json"
+      },
+      {
+        "label": "Tailwind Dark Stone",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-stone-color-theme.json"
+      }
+    ]
+  }
+}
